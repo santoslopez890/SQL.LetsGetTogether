@@ -5,4 +5,5 @@ LEFT JOIN Students
 
 SELECT *
 FROM Enrolments
-LEFT JOIN Students ON Enrolments.StudentID = Students.StudentID;
+LEFT JOIN Students
+ON Enrolments.StudentID = Students.StudentID;
